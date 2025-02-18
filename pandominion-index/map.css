@@ -7,14 +7,12 @@ body {
     font-style: normal;
     background-image: url('./images/space-6000x4000-.jpg');
     animation: throughSpace 10s linear infinite;
-    color: rgb(85, 27, 127);
+    color: blue;
 }
 h1 {
     font-family: "Lacquer", system-ui;
     font-weight: bolder;
-
-    color: purple;
-
+    color: blue;
     font-size: 5em;
 }
 
@@ -24,7 +22,7 @@ h1 {
 }
 
 :root {
-    --ansur-txt: rgb(93, 109, 199);
+    --ansur-txt: blue;
     --pando-txt: green;
 
     font-family: "Lacquer", system-ui;
@@ -74,7 +72,7 @@ h1 {
     display: flex;
     position: relative;
     opacity: 1;
-    color: grey;
+    color: purple;
     font-size: 20px;
 }
 
@@ -128,7 +126,7 @@ fieldset input {
 /* Hiding the default checkbox */
 .container input {
     position: absolute;
-    opacity: 0;
+    opacity: 1;
 }
 
 .checkmark {
