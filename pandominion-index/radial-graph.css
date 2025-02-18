@@ -1,0 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap');
+
+body {
+    font-family: "Carrois Gothic SC", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+h1 {
+    font-family: "Carrois Gothic SC", sans-serif;
+    font-weight: bolder;
+    color: white;
+    font-size: 5em;
+}
+h2 {
+    font-family: "Carrois Gothic SC", sans-serif;
+}
+h3 {
+    font-family: "Carrois Gothic SC", sans-serif;
+}
+p {
+    font-family: "Carrois Gothic SC", sans-serif;
+    color: rgb(196, 196, 196);
+}
+
+:root {
+    --bg-color: rgba(0, 0, 0, 0.6);
+    --pando-txt: red; /* TODO: choose a Cielo red */
+    --ansur-txt: #1f3450;
+    --bg-space: rgb(13, 8, 34);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    ;
+}
+
+.radar-chart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 220px;
+    height: 220px;
+    margin: 0 auto;
+    padding: 35px;
+    box-sizing: content-box;
+    background-color: var(--bg-color);
+    border-radius: 10%;
+}
+
+.radar-chart svg {
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+}
+
+.radar-chart svg > g:nth-child(1) { /* Spokes */
+    stroke: var(--pando-txt);
+}
+
+.radar-chart svg > g:nth-child(2) {
+    stroke: var(--pando-txt);
+}
+
+.radar-chart svg > g:nth-child(4) {
+    stroke: whitesmoke;
+    fill:whitesmoke
+}
+
+.radar-chart svg > path {
+    stroke: whitesmoke;
+    fill-opacity: 0.1;
+    fill: pink;
+}
+
+.radar-chart dl {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-size: .6em;
+    color: white; /* font colour for labels */
+
+}
+
+.radar-chart dl > div {
+    position: absolute;
+    color: var(--soft-ansur);
+    font-size: 1.6em;
+    text-align: center;
+}
+
+.radar-chart dl > div:nth-child(1) {
+    top: 9%;
+    left: 44%;
+    transform: translateX(-50%);
+    transform: rotate(0);
+}
+
+.radar-chart dl > div:nth-child(2) {
+    top: 33%;
+    right: 3%;
+    transform: translateX(50%);
+    transform: rotate(60deg);
+}
+
+.radar-chart dl > div:nth-child(3) {
+    bottom: 16%;
+    right: 15%;
+    transform: translateX(50%);
+    transform: rotate(-28deg);
+}
+
+.radar-chart dl > div:nth-child(4) {
+    bottom: 16%;
+    left: 17%;
+    transform: translateX(-50%);
+    transform: rotate(28deg);
+}
+
+.radar-chart dl > div:nth-child(5) {
+    top: 33%;
+    left: 2%;
+    transform: translateX(-50%);
+    transform: rotate(-60deg);
+}
+
+.radar-chart dd {
+    margin: 0;
+}
+
+.radar-chart dt {
+    font-family: "Carrois Gothic SC", sans-serif;
+    font-size: 90%;
+}

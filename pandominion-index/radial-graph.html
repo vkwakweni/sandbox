@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Species Graphs</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="radial-graph.css">
+    </head>
+
+    <div class="radar-chart">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 200 200">
+            <g stroke="#dce5eb">
+                <!-- The Spokes of the Pentagon -->
+                <path d="M 100 100 L 100.0 0.0"/>
+                <path d="M 100 100 L 195.1 69.1"/>
+                <path d="M 100 100 L 158.8 180.9"/>
+                <path d="M 100 100 L 41.2 180.9"/>
+                <path d="M 100 100 L 4.9 69.1"/>
+            </g>
+            <g stroke="#dce5eb" fill = "none">
+                <!-- The pentagons -->
+                <path d="M 100.0 0.0 L 195.1 69.1 L 158.8 180.9 L 41.2 180.9 L 4.9 69.1 L 100.0 0.0"/>
+                <!-- <path d="M 100.0 20.0 L 176.1 75.3 L 147.0 164.7 L 53.0 164.7 L 23.9 75.3 L 100.0 20.0"/> -->
+                <path d="M 100.0 40.0 L 157.1 81.5 L 135.3 148.5 L 64.7 148.5 L 42.9 81.5 L 100.0 40.0"/>
+                <!-- <path d="M 100.0 60.0 L 138.0 87.6 L 123.5 132.4 L 76.5 132.4 L 62.0 87.6 L 100.0 60.0"/> -->
+                <path d="M 100.0 80.0 L 119.0 93.8 L 111.8 116.2 L 88.2 116.2 L 81.0 93.8 L 100.0 80.0"/>
+            </g>
+            <!-- The actual plot -->
+             <!-- get points from here https://pote-chil.com/css-stock/en/radar-chart#2 -->
+            <path d="M 100.0 0.0 L 
+                       100.0 100.0 L 
+                       129.4 140.5 L 
+                       82.4 124.3 L 
+                       33.4 78.4 L 
+                       100.0 0.0"/>
+            <g fill="#f66868"> <!-- Dots for the plot -->
+                <circle cx="100.0" cy="0.0" r="3"/>
+                <circle cx="100.0" cy="100.0" r="3"/>
+                <circle cx="129.4" cy="140.5" r="3"/>
+                <circle cx="82.4" cy="124.3" r="3"/>
+                <circle cx="33.4" cy="78.4" r="3"/>
+            </g>
+        </svg>
+        <dl>
+            <div>
+                <dt>Speed</dt> <!-- The label-->
+                <dd>10</dd> <!-- the value -->
+            </div>
+            <div>
+                <dt>Metabolism</dt> <!-- The label-->
+                <dd>10</dd> <!-- the value -->
+            </div>
+            <div>
+                <dt>Aggression</dt> <!-- The label-->
+                <dd>10</dd> <!-- the value -->
+            </div>
+            <div>
+                <dt>Hairiness</dt> <!-- The label-->
+                <dd>10</dd> <!-- the value -->
+            </div>
+            <div>
+                <dt>Motor Skills</dt> <!-- The label-->
+                <dd>10</dd> <!-- the value -->
+            </div>
+        </dl>
+    </div>
+</html>
