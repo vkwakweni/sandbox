@@ -7,11 +7,12 @@ body {
     font-style: normal;
     background-image: url('./images/space-6000x4000-.jpg');
     animation: throughSpace 100s linear infinite;
+    color: rgb(251, 255, 0);
 }
 h1 {
     font-family: "Lacquer", system-ui;
     font-weight: bolder;
-    color: white;
+    color: green;
     font-size: 5em;
 }
 
