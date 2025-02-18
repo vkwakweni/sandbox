@@ -11,7 +11,7 @@ body {
 h1 {
     font-family: "Carrois Gothic SC", sans-serif;
     font-weight: bolder;
-    color: white;
+    color: rgb(132, 38, 38);
     font-size: 5em;
 }
 
@@ -30,11 +30,11 @@ p {
 }
 
 h2 > a:link {
-    color:grey;
+    color:rgb(48, 30, 168);
 }
 
 h2 > a:visited {
-    color:grey;
+    color:rgb(70, 32, 32);
 }
 
 .carrois-gothic-sc-regular {
@@ -60,11 +60,11 @@ img {
 /* HOVER EFFECT */
 
 .middle {
-    transition: .5 ease;
+    transition: .9 ease;
     opacity: 0;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 10%;
+    left: 10%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     align-items: center;
