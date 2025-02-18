@@ -11,7 +11,7 @@ body {
 h1 {
     font-family: "Lacquer", system-ui;
     font-weight: bolder;
-    color: white;
+    color: rgb(51, 78, 146);
     font-size: 5em;
 }
 
@@ -21,7 +21,7 @@ h1 {
 }
 
 :root {
-    --ansur-txt: rgb(93, 109, 199);
+    --ansur-txt: rgb(93, 199, 155);
     --pando-txt: red;
     font-family: "Lacquer", system-ui;
 }
@@ -52,7 +52,7 @@ h1 {
 .content {
     display: inline-flex;
     flex-direction: row;
-    align-content: center;
+    align-content: right;
     margin: 0 auto;
 }
 
@@ -134,7 +134,7 @@ fieldset input {
     transform: translateY(-22px);
     background-color: rgb(219, 219, 219);
     border-radius: 10%;
-    align-content: center;
+    align-content: left;
     outline: solid .5px rgba(173, 173, 173, 1.5);
 }
 
@@ -144,7 +144,7 @@ fieldset input {
     font-size: 130%;
     position: absolute;
     transform: translateY(-22px);
-    color: black;
+    color: rgb(241, 255, 92);
     margin: 0;
     padding: 0;
 }
