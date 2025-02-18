@@ -139,9 +139,7 @@ $data = $db->fetchAllFromTable($table);
                                     <g stroke="#dce5eb" fill = "none">
                                         <!-- The pentagons -->
                                         <path d="M 100.0 0.0 L 195.1 69.1 L 158.8 180.9 L 41.2 180.9 L 4.9 69.1 L 100.0 0.0"/>
-                                        <!-- <path d="M 100.0 20.0 L 176.1 75.3 L 147.0 164.7 L 53.0 164.7 L 23.9 75.3 L 100.0 20.0"/> -->
                                         <path d="M 100.0 40.0 L 157.1 81.5 L 135.3 148.5 L 64.7 148.5 L 42.9 81.5 L 100.0 40.0"/>
-                                        <!-- <path d="M 100.0 60.0 L 138.0 87.6 L 123.5 132.4 L 76.5 132.4 L 62.0 87.6 L 100.0 60.0"/> -->
                                         <path d="M 100.0 80.0 L 119.0 93.8 L 111.8 116.2 L 88.2 116.2 L 81.0 93.8 L 100.0 80.0"/>
                                     </g>
                                     <path d="M <?=$row["cx1"]?> <?=$row["cy1"]?> L
@@ -160,24 +158,24 @@ $data = $db->fetchAllFromTable($table);
                                 </svg>
                                 <dl>
                                     <div>
-                                        <dt>Speed</dt> <!-- The label-->
-                                        <dd></dd> <!-- the value -->
+                                        <dt>Speed</dt>
+                                        <dd></dd>
                                     </div>
                                     <div>
-                                        <dt>Metabolism</dt> <!-- The label-->
-                                        <dd></dd> <!-- the value -->
+                                        <dt>Metabolism</dt>
+                                        <dd></dd>
                                     </div>
                                     <div>
-                                        <dt>Aggression</dt> <!-- The label-->
-                                        <dd></dd> <!-- the value -->
+                                        <dt>Aggression</dt>
+                                        <dd></dd>
                                     </div>
                                     <div>
-                                        <dt>Hairiness</dt> <!-- The label-->
-                                        <dd></dd> <!-- the value -->
+                                        <dt>Hairiness</dt>
+                                        <dd></dd>
                                     </div>
                                     <div>
-                                        <dt>Motor Skills</dt> <!-- The label-->
-                                        <dd></dd> <!-- the value -->
+                                        <dt>Motor Skills</dt>
+                                        <dd></dd>
                                     </div>
                                 </dl>
                             </div>
@@ -222,9 +220,7 @@ $data = $db->fetchAllFromTable($table);
                                     <g stroke="#dce5eb" fill = "none">
                                         <!-- The pentagons -->
                                         <path d="M 100.0 0.0 L 195.1 69.1 L 158.8 180.9 L 41.2 180.9 L 4.9 69.1 L 100.0 0.0"/>
-                                        <!-- <path d="M 100.0 20.0 L 176.1 75.3 L 147.0 164.7 L 53.0 164.7 L 23.9 75.3 L 100.0 20.0"/> -->
                                         <path d="M 100.0 40.0 L 157.1 81.5 L 135.3 148.5 L 64.7 148.5 L 42.9 81.5 L 100.0 40.0"/>
-                                        <!-- <path d="M 100.0 60.0 L 138.0 87.6 L 123.5 132.4 L 76.5 132.4 L 62.0 87.6 L 100.0 60.0"/> -->
                                         <path d="M 100.0 80.0 L 119.0 93.8 L 111.8 116.2 L 88.2 116.2 L 81.0 93.8 L 100.0 80.0"/>
                                     </g>
                                     <path d="M <?=$row["cx1"]?> <?=$row["cy1"]?> L
@@ -243,24 +239,24 @@ $data = $db->fetchAllFromTable($table);
                                 </svg>
                                 <dl>
                                     <div>
-                                        <dt>Speed</dt> <!-- The label-->
-                                        <dd></dd> <!-- the value -->
+                                        <dt>Speed</dt>
+                                        <dd></dd>
                                     </div>
                                     <div>
-                                        <dt>Metabolism</dt> <!-- The label-->
-                                        <dd></dd> <!-- the value -->
+                                        <dt>Metabolism</dt>
+                                        <dd></dd>
                                     </div>
                                     <div>
-                                        <dt>Aggression</dt> <!-- The label-->
-                                        <dd></dd> <!-- the value -->
+                                        <dt>Aggression</dt>
+                                        <dd></dd>
                                     </div>
                                     <div>
-                                        <dt>Hairiness</dt> <!-- The label-->
-                                        <dd></dd> <!-- the value -->
+                                        <dt>Hairiness</dt>
+                                        <dd></dd>
                                     </div>
                                     <div>
-                                        <dt>Motor Skills</dt> <!-- The label-->
-                                        <dd></dd> <!-- the value -->
+                                        <dt>Motor Skills</dt>
+                                        <dd></dd>
                                     </div>
                                 </dl>
                             </div>
