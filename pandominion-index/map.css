@@ -6,8 +6,8 @@ body {
     font-weight: 300;
     font-style: normal;
     background-image: url('./images/space-6000x4000-.jpg');
-    animation: throughSpace 100s linear infinite;
-    color: rgb(251, 255, 0);
+    animation: throughSpace 10s linear infinite;
+    color: rgb(251, 255, 50);
 }
 h1 {
     font-family: "Lacquer", system-ui;
@@ -23,14 +23,14 @@ h1 {
 
 :root {
     --ansur-txt: rgb(93, 109, 199);
-    --pando-txt: red;
+    --pando-txt: green;
     font-family: "Lacquer", system-ui;
 }
 
 .lacquer-regular {
     font-family: "Lacquer", system-ui;
     font-weight: 400;
-    font-style: normal;
+    font-style: oblique;
   }
 
 /* Element-wide */
@@ -71,7 +71,7 @@ h1 {
     display: flex;
     position: relative;
     opacity: 1;
-    color: white;
+    color: grey;
     font-size: 20px;
 }
 
